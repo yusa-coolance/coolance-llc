@@ -1,2 +1,12 @@
-# Claude Code 個人スキル/設定 (プロジェクト成果物ではないため追跡しない)
-.claude/
+# ---- AI 指示・スキル（dev-common v1）追跡＝成果物 / 除外＝個人・機密・実行時 ----
+# 追跡する: .claude/launch.json .claude/settings.json .claude/hooks/ .claude/skills/（第三者・自作）
+#           .agents/skills/ skills-lock.json   ※ skills-hub 配布物はリポ内に置かない
+.claude/settings.local.json
+.claude/*.local.json
+.claude/agent-memory/
+.claude/worktrees/
+.claude/.sibling-guard/
+.claude/scheduled_tasks.lock
+.claude/skills/*/DEPLOYED.md
+.agents/skills/*/DEPLOYED.md
+.playwright-mcp/
